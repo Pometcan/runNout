@@ -1,0 +1,6 @@
+  World = wf.newWorld(0,0,true)
+  World:setGravity(0,0)
+  World:addCollisionClass("player")
+  World:addCollisionClass("wall")
+  World:addCollisionClass("enemy")
+  World:addCollisionClass("bullet")

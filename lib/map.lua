@@ -1,0 +1,13 @@
+
+wallup = World:newRectangleCollider(0,0,160,28)
+walldown = World:newRectangleCollider(0,0,28,160)
+wallleft = World:newRectangleCollider(0,132,160,28)
+wallright = World:newRectangleCollider(132,0,28,160)
+wallup:setType('static')
+walldown:setType('static')
+wallleft:setType('static')
+wallright:setType('static')
+wallup:setCollisionClass("wall")
+walldown:setCollisionClass("wall")
+wallleft:setCollisionClass("wall")
+wallright:setCollisionClass("wall")
